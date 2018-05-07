@@ -3,7 +3,7 @@
   <title>Hexo</title>
   <icon>https://www.gravatar.com/avatar/29de9b0b339b0c860df517bdb4285163</icon>
   
-  <link href="/hexo-theme-huxblog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
   <link href="localhost/"/>
   <updated>2018-05-07T04:28:58.049Z</updated>
