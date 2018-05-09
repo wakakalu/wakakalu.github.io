@@ -8,7 +8,14 @@
     
     <url>
         <loc>localhost/archive/</loc>
-        <lastmod>2018-05-09T14:39:32.503Z</lastmod>
+        <lastmod>2018-05-09T14:53:05.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>localhost/about/</loc>
+        <lastmod>2018-05-09T14:43:33.299Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -16,13 +23,6 @@
     <url>
         <loc>localhost/tags/</loc>
         <lastmod>2018-05-09T12:34:51.168Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>localhost/about/</loc>
-        <lastmod>2018-05-07T14:56:09.173Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
