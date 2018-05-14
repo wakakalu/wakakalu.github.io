@@ -17,14 +17,21 @@
 
     <url>
         <loc>localhost/tags/big-data/</loc>
-        <lastmod>2018-05-12T04:48:23.035Z</lastmod>
+        <lastmod>2018-05-12T16:18:26.433Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>localhost/tags/semantic-web/</loc>
-        <lastmod>2018-05-12T04:48:23.035Z</lastmod>
+        <lastmod>2018-05-12T16:18:26.433Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>localhost/tags/machine-learning/</loc>
+        <lastmod>2018-05-14T12:00:00.770Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
