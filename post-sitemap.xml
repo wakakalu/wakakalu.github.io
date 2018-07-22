@@ -8,7 +8,15 @@
 
     <url>
         <loc>localhost/2018/07/22/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8Ejava%E5%B8%B8%E9%87%8F%E6%B1%A0%E7%9A%84%E7%A0%94%E7%A9%B6/</loc>
-        <lastmod>2018-07-22T04:30:28.759Z</lastmod>
+        <lastmod>2018-07-22T10:07:51.594Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>localhost/2018/05/11/HIKE/</loc>
+        <lastmod>2018-07-22T04:31:33.169Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,14 +25,6 @@
     <url>
         <loc>localhost/2018/06/02/%E3%80%8AA%20vector%20space%20model%20for%20automatic%20indexing%E3%80%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2018-06-03T12:34:04.890Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>localhost/2018/05/11/HIKE/</loc>
-        <lastmod>2018-05-27T17:13:38.625Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

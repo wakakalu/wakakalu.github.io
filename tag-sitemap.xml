@@ -23,20 +23,6 @@
     </url>
 
     <url>
-        <loc>localhost/tags/big-data/</loc>
-        <lastmod>2018-05-27T17:13:38.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>localhost/tags/semantic-web/</loc>
-        <lastmod>2018-05-27T17:13:38.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>localhost/tags/alogriyhm/</loc>
         <lastmod>2018-06-03T12:34:04.890Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -45,7 +31,7 @@
 
     <url>
         <loc>localhost/tags/JVM/</loc>
-        <lastmod>2018-07-22T04:30:28.759Z</lastmod>
+        <lastmod>2018-07-22T10:07:51.594Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
