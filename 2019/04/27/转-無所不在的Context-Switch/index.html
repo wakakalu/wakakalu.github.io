@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          About - kapa的博客 | kapa&#39;s Blog
+          (转)無所不在的Context Switch - kapa的博客 | kapa&#39;s Blog
         
     </title>
 
-    <link rel="canonical" href="localhost/about/">
+    <link rel="canonical" href="localhost/2019/04/27/转-無所不在的Context-Switch/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -69,8 +69,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/about-bg.jpg')
-            /*page*/
+            background-image: url('undefined')
+            /*post*/
         
     }
     
@@ -83,10 +83,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-                    <div class="site-heading">
-                        <h1>About</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">Hey, this is kapa.</span>
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                        </div>
+                        <h1>(转)無所不在的Context Switch</h1>
+                        <h2 class="subheading"></h2>
+                        <span class="meta">
+                            Posted by Kapa on
+                            2019-04-27
+                        </span>
                     </div>
                 
 
@@ -188,178 +194,141 @@
 
 
     <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        
+    <!-- Modify by Yu-Hsuan Yen -->
 
-<!-- USE SIDEBAR -->
-    <!-- Post Container -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-            
-                <p>一名爱好编程的萌新，热衷于机器学习、云计算、计算机网络等方面，希望各位多多关照。</p>
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
+                <blockquote>
+<p>每一次的注意力轉移，都需要耗費15分鐘才能回到之前的流狀態。</p>
+</blockquote>
+<p>當你的電腦運作速度突然變得緩慢，如果這時候打開「工作管理員」（Task Manager）檢查，你會驚訝地發現，怎麼有許多莫名其妙的「常駐程式」同時在執行？其中一個罪魁禍首程式占用CPU將近百分之百的效能，難怪你的Visual Studio忽然變得這麼慢。</p>
+<p>不僅電腦中有許多常駐程式，會中斷我們正在使用的重要程式、占用電腦記憶體，現實生活中，也有許多例行與非例行的事項，占據我們一天中大多數的時間，讓我們做事效率不彰。可能是沒有結論的無聊會議、可能是一通女友撒嬌的電話、可能是MSN上沒有意義的寒暄、合作廠商禮貌性的拜會、或者行政人員對於你請款單據的刁難，都會讓你的工作產能大減。</p>
+<p>你知道，將這些亂七八糟的事情摒除於工作之外，絕對可以省下許多時間寫程式，也就不需要天天加班了。但是，你可能不知道，你因此省下的時間，不只是處理這些雜事的時間，還包括了「進入流」的時間。</p>
+<p>心理學家發現一種「高度專心與高生產力」的心智狀態，稱之為「流」（flow）。進入流的狀態，需要約15分鐘（0.25小時）的時間。你可以把「進入流」的時間，比喻成CPU進行Context-Switch（本文切換）時的Overhead。</p>
+<p>二十多年前，《Peopleware: Productive Projects and Teams》一書，就已經開始提醒我們，程式員寫程式時如果遇到外來干擾，對生產力的傷害有多大。總而言之，如果你想提升你的程式生產力，你可以全面檢視一天中有哪些Context-Switch，然後盡量避免。</p>
+<p>假設有一個程式員，早上、下午的工作時間各為3.5小時。那麼，他處於高生產力的時間，扣除掉進入「流」的狀態（約0.25小時），大約是3.5 – 0.25 + 3.5 – 0.25 = 6.5小時。假設一天中被電話等其他雜事中斷10次，每次都花費6分鐘（0.1小時），則高生產力的時間變成 6.5 – (0.1+0.25) 乘以10 = 3小時。降低的幅度相當驚人，每次6分鐘的打擾，都會造成 6+15 = 21分鐘的損失。</p>
+<p>每一次的注意力轉移，都需要耗費15分鐘才能回到之前的流狀態。所以大多數的程式員，很難在白天上班時有很高的生產力。有許多程式員喜歡在晚上（或下班後）寫程式，正是因為半夜的干擾比白天少很多，所以產能比較高。</p>
+<p>程式員要如何避免來自辦公室的干擾？大部分的程式員都沒有獨立的辦公室，所以很難避免被干擾。以前上班時，我就常常幻想要把辦公桌的小方塊隔板加高，蓋上屋頂，加個滑動門，成為一個「辦公包廂」。</p>
+<p>許多程式員習慣上班時戴著耳機，當進入耳朵的聲音變得可以預期（例如音樂），大腦可以將它變成白色噪音（White Noise），而主動過濾掉。但是我覺得一整天都戴著耳機，耳朵其實會不舒服。加上長期使用耳機會造成聽力衰退，現代醫學認為，聽力衰退是無法復原的，所以戴著耳機似乎不是好作法。我後來嘗試改用耳塞，覺得效果還不錯。</p>
+<p>即時通訊軟體（Instant Messenger，IM）也常造成工作上的干擾。我工作時，盡量不開IM，或者把狀態設定成忙碌。除了IM，電話也常常是干擾的來源。</p>
+<p>上述的干擾，是我們可以輕易察覺的，但是有一類干擾，則是編程語言與開發工具造成的，編程語言與開發工具也會造成Context-Switch，使得程式員的生產力降低，但是卻少有人注意到。</p>
+<p>有些編程語言和開發工具，需要你進行自我測試、除錯、編譯、連結的冗長動作，大部分都是編譯式、低階、傳統的語言，會讓你離開真正具有高生產力的流的狀態。</p>
+<p>Script語言顯然就比較沒有這種問題。許多使用Script語言的人都會覺得生產力很高，開發時間可以比傳統語言快上許多倍。一方面是因為Script語言很高階，可以用比較簡短的程式碼，做很多事；另一方面，Script語言一有問題可以立刻修改，不需要形成中斷而離開「流」。</p>
+<p>不過，即使是傳統的語言，也可以藉由開發工具的幫忙，減少離開流的狀態，進而改善開發效率。例如6、7年前的IntelliJ就顯然比當時其他Java IDE更能夠減少Context-Switch，生產力更高，所以馬上成為最受歡迎的Java IDE之一。</p>
+<p>請注意，有些行為很容易被誤認為是干擾，但其實是有助於生產力的。例如，當你很累時，可以起來走動，到辦公室外面的Starbucks買杯咖啡，當身體在運動時，能夠促進血液循環，思緒似乎會更清晰。只要不被沿路的事物所分心，也不要和他人交談，你的腦筋依然可以保持在原來的Context，繼續思考。</p>
+<p>不過，你可得小心，因為我好幾次在去買咖啡的路上，因為太過專心思考，差一點因此被車撞到。</p>
+<p>原作者：<strong>蔡學鏞</strong>－專職作家<br>清華大學資訊工程碩士，曾任華碩集團軟體工程師、元智大學資訊系講師、美商歐萊禮出版社技術編輯、臺灣微軟特約專欄作家。</p>
 
-                <!-- 如果开启评论功能 -->
                 
-                    <hr>
+
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                    
+                        <li class="next">
+                            <a href="/2018/07/22/一个关于java常量池的研究/" data-toggle="tooltip" data-placement="top" title="一个关于java常量池的研究 ">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                <!-- disqus comment end -->
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
 
                     
-
-                    
-
-
-                    
-
-                    
+                </ul>
                 
             </div>
-
-          <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Featured Tags -->
-
-<section>
-    <!-- no hr -->
-    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-    <div class="tags">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+        </div>
     </div>
-</section>
+</article>
 
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/about/">ABOUT ME</a></h5>
-    <div class="short-about">
 
-        
-            <img id = "avatar_pic" src="/img/portrait.jpg" />
-        
 
-        
-            <p>道法自然</p>
-        
 
-        <!-- SNS Link -->
-        <ul class="list-inline">
-            
-            
-                <li>
-                    <a target="_blank" href="https://twitter.com/GGxSuperman">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-            
-                <li>
-                    <a target="_blank" href="https://www.zhihu.com/people/GGxSuperman">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa  fa-stack-1x fa-inverse">知</i>
-                        </span>
-                    </a>
-                </li>
-            
 
-            
 
-            
 
-            
-                <li>
-                    <a target="_blank"  href="https://github.com/wakakalu">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-            
-            
-            
-        </ul>
-    </div>
-</section>
-        <hr>
-    
-        
-  <h5>RECENT POSTS</h3>
-  <div class="widget">
-    <ul>
-      
-        <li>
-          <a href="/2019/04/27/转-無所不在的Context-Switch/">(转)無所不在的Context Switch</a>
-        </li>
-      
-        <li>
-          <a href="/2018/07/22/一个关于java常量池的研究/">一个关于java常量池的研究 </a>
-        </li>
-      
-        <li>
-          <a href="/2018/06/02/《A vector space model for automatic indexing》学习笔记/">《A vector space model for automatic indexing》学习笔记</a>
-        </li>
-      
-        <li>
-          <a href="/2018/05/13/TransE/">TransE</a>
-        </li>
-      
-        <li>
-          <a href="/2018/05/11/HIKE/">实体对齐HIKE框架介绍</a>
-        </li>
-      
-    </ul>
-  </div>
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-
-    
-</ul>
-
-        <hr>
-    
-</div>
-
-        
-    </div>
-</div>
 
 
     <!-- Footer -->
